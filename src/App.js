@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import {
-  Menu, Globe, Zap, FolderArchive, ShieldCheck, UploadCloud, Search, MessageSquare, Briefcase, TrendingUp, User, FileText, Lock, DollarSign, Users, BookOpen, Clock, Linkedin, Code, UserCheck, CheckCircle, ExternalLink, Paperclip
+  Menu, Globe, Zap, FolderArchive, ShieldCheck, Search, MessageSquare, Briefcase, TrendingUp, User, FileText, Lock, DollarSign, Users, BookOpen, Clock, Linkedin, Code, UserCheck, CheckCircle, ExternalLink, Paperclip
 } from 'lucide-react';
 
 // --- Gemini API Configuration ---
@@ -91,7 +91,7 @@ const DICTIONARY = {
     team_role_cto: 'Chief Technology Officer (CTO)',
     team_role_legal: 'Legal Counsel (TBD)',
     team_desc_doston: 'Driving the strategic vision and market penetration of SafeSign AI in the Uzbekistan legal sector.',
-    team_desc_rustamxon: 'Expert in financial modeling and managing growth capital, ensuring the company\'s fiscal health and scalability.',
+    team_desc_rustamxon: "Expert in financial modeling and managing growth capital, ensuring the company's fiscal health and scalability.",
     team_desc_shohjahon: 'Leading the development of the proprietary legal LLM and secure cloud infrastructure.',
     team_desc_sardor: 'Ensuring AI output adheres to Uzbek legal standards and provides critical domain expertise. (Role currently pending).',
     team_linkedin: 'LinkedIn Profile',
